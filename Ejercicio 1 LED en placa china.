@@ -1,0 +1,35 @@
+
+/* Ejercicio con una placa china clonica de arduino 1, con su IDE 1.0.6 con el driver chino, para los alumnos de la ESEI(uvigo uni) 
+de OURENSE, así se probará en la clase con los equipos antes de empezar, y ver que todo va bien, se ejecuta en kubuntu, esperemos 
+que no de errores */
+
+
+LOL ------------------------------------------->
+
+
+//Solo con un led, resistencias de 5 ohm, probar codigo con arduino duemilenove, en la versión 1.6.13 con chips chinos.
+//para evitar conflictos de la versión 1.8 que parece que solo soporta chips de calidad oficiales??
+
+int LED = 13;
+
+void setup() {
+  // put your setup code here, to run once:
+
+      pinMode(LED, OUTPUT);
+
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+
+      digitalWrite(LED, HIGH);
+      delay(1000);
+      digitalWrite(LED, LOW);
+      delay(1000);
+
+}  
+
+/* Los alumnos instalarán ellos mismo esta versión para configurarla con los clones, abaratar costes, no tirar la placa,
+y así pedir a 15 días kits mas completos y baratos a china xd */
